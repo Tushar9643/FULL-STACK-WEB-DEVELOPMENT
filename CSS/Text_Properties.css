@@ -1,0 +1,24 @@
+h1{
+    color: BLACK;
+    text-align : center
+}
+h3{
+    color:rgb(75, 128, 18);
+    text-align : right;
+}
+#first{
+    color:blueviolet;
+    text-align : left;
+}
+#second{
+    color:rgb(2, 60, 60);
+    text-align : center;
+}
+#third{
+    color:rgb(2, 60, 60);
+    text-align : center;
+}
+#fourth{
+    color:rgb(2, 60, 60);
+    text-align : center;
+}
