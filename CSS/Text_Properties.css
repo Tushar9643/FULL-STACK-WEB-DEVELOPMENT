@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 30px 40px;
+}
+
+/* ========================
+   MAIN HEADING
+======================== */
+.main-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #2c3e50;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+/* ========================
+   SECTION LAYOUT
+======================== */
+.section {
+    background: #ffffff;
+    border-left: 5px solid #e67e22;
+    border-radius: 8px;
+    padding: 24px 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #e67e22;
+    margin-bottom: 16px;
+    border-bottom: 1px dashed #e0e0e0;
+    padding-bottom: 8px;
+}
+
+/* 1. COLOR */
+.color-red    { color: red; }
+.color-blue   { color: blue; }
+.color-orange { color: orange; font-weight: 1000; }
+
+/* 2. FONT SIZE */
+.size-small   { font-size: 12px; }
+.size-medium  { font-size: 18px; }
+.size-large   { font-size: 28px; }
+.size-xlarge  { font-size: 40px; }
+
+/* 3. FONT WEIGHT */
+.fw-100 { font-weight: 100; }
+.fw-200 { font-weight: 200; }
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fw-800 { font-weight: 800; }
+.fw-900 { font-weight: 900; }
+
+/* 4. FONT STYLE */
+.style-normal  { font-style: normal; }
+.style-italic  { font-style: italic; }
+.style-oblique { font-style: oblique; }
+
+/* 5. TEXT ALIGN */
+.align-left    { text-align: left; }
+.align-center  { text-align: center; }
+.align-right   { text-align: right; }
+.align-justify { text-align: justify; }
+
+/* 6. TEXT DECORATION */
+.deco-underline   { text-decoration: underline; }
+.deco-overline    { text-decoration: overline; }
+.deco-linethrough { text-decoration: line-through; }
+.deco-none        { text-decoration: none; color: blue; }
+
+/* 7. TEXT TRANSFORM */
+.transform-upper      { text-transform: uppercase; }
+.transform-lower      { text-transform: lowercase; }
+.transform-capitalize { text-transform: capitalize; }
+
+/* 8. LETTER SPACING */
+.ls-tight  { letter-spacing: -1px; }
+.ls-normal { letter-spacing: 0px; }
+.ls-wide   { letter-spacing: 4px; }
+.ls-xwide  { letter-spacing: 8px; }
+
+/* 9. WORD SPACING */
+.ws-tight  { word-spacing: -4px; }
+.ws-normal { word-spacing: 0px; }
+.ws-wide   { word-spacing: 16px; }
+
+/* 11. TEXT SHADOW */
+.shadow-simple { text-shadow: 2px 2px 4px #aaa; font-size: 20px; }
+.shadow-color  { text-shadow: 3px 3px 6px red; font-size: 20px; color: #333; }
+.shadow-glow   { text-shadow: 0 0 10px #00f, 0 0 20px #00f; font-size: 20px; color: #fff; background: #222; padding: 6px 12px; display: inline-block; border-radius: 4px; }
+.shadow-hard   { text-shadow: 4px 4px 0px #000; font-size: 22px; color: #e67e22; }
+
+/* 12. FONT FAMILY */
+.font-serif   { font-family: Georgia, serif; font-size: 16px; }
+.font-sans    { font-family: Arial, sans-serif; font-size: 16px; }
+.font-mono    { font-family: 'Courier New', Courier, monospace; font-size: 16px; }
+.font-cursive { font-family: cursive; font-size: 18px; }
+
