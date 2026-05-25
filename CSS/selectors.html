@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" href="selectors.css">
+</head>
+<body>
+
+    <h1 id="main-heading">CSS Selectors Demo</h1>
+    <p class="intro">Yeh page saare CSS Selectors ko demonstrate karta hai.</p>
+
+    <!-- 1. UNIVERSAL SELECTOR -->
+    <h2 class="section-title">1. Universal Selector </h2>
+    <p>Universal selector poore page ke saare elements ko select karta hai.</p>
+
+    <!-- 2. ELEMENT SELECTOR -->
+    <h2 class="section-title">2. Element Selector</h2>
+    <p>Yeh ek paragraph hai — element selector se select hua.</p>
+    <p>Yeh doosra paragraph hai — same element selector.</p>
+
+    <!-- 3. CLASS SELECTOR -->
+    <h2 class="section-title">3. Class Selector ( .classname )</h2>
+    <p class="highlight">Yeh class="highlight" wala paragraph hai.</p>
+    <p class="highlight">Yeh bhi same class se select hua hai.</p>
+    <p class="warning">Yeh class="warning" wala paragraph hai.</p>
+
+    <!-- 4. ID SELECTOR -->
+    <h2 class="section-title">4. ID Selector ( #idname )</h2>
+    <p id="special-para">Yeh id="special-para" wala paragraph hai. ID ek hi baar use hoti hai.</p>
+
+    <!-- 5. GROUP SELECTOR -->
+    <h2 class="section-title">5. Group Selector ( h1, h2, p )</h2>
+    <h3 class="group-demo">Yeh h3 group selector se style hua.</h3>
+    <h4 class="group-demo">Yeh h4 bhi group selector se style hua.</h4>
+    <p class="group-demo">Yeh paragraph bhi group selector mein hai.</p>
+
+    <!-- 6. DESCENDANT SELECTOR -->
+    <h2 class="section-title">6. Descendant Selector ( div p )</h2>
+    <div class="parent-box">
+        <p>Yeh paragraph div ke andar hai — descendant selector se select hua.</p>
+        <p>Yeh bhi div ke andar wala paragraph hai.</p>
+    </div>
+    <p>Yeh paragraph div ke bahar hai — select nahi hua.</p>
+
+    <!-- 7. CHILD SELECTOR -->
+    <h2 class="section-title">7. Child Selector</h2>
+    <div class="child-box">
+        <p>Yeh direct child paragraph hai — child selector se select hua.</p>
+        <span>
+            <p>Yeh span ke andar hai — direct child nahi — select nahi hua.</p>
+        </span>
+    </div>
+
+    <!-- 8. ADJACENT SIBLING SELECTOR -->
+    <h2 class="section-title">8. Adjacent Sibling Selector ( h3 + p )</h2>
+    <h3 class="sibling-head">Yeh h3 hai</h3>
+    <p>Yeh h3 ke bilkul baad wala paragraph hai — adjacent sibling select hua.</p>
+    <p>Yeh doosra paragraph hai — select nahi hua.</p>
+
+    <!-- 9. GENERAL SIBLING SELECTOR -->
+    <h2 class="section-title">9. General Sibling Selector</h2>
+    <h3 class="gen-sibling-head">Yeh h3 hai</h3>
+    <p>Yeh pehla sibling paragraph hai — select hua.</p>
+    <p>Yeh doosra sibling paragraph bhi — select hua.</p>
+    <p>Yeh teesra bhi select hua — general sibling sab ko pakadta hai.</p>
+
+    <!-- 10. ATTRIBUTE SELECTOR -->
+    <h2 class="section-title">10. Attribute Selector ( [attribute] )</h2>
+    <input type="text" placeholder="Text input — attribute selector se styled"/>
+    <br><br>
+    <input type="password" placeholder="Password input — alag style"/>
+    <br><br>
+    <a href="https://google.com" target="_blank">Yeh link target attribute wali hai — styled hai.</a>
+    <br>
+    <a href="#">Yeh link target attribute nahi hai.</a>
+
+
+    <!-- 12. PSEUDO-ELEMENT SELECTOR -->
+    <h2 class="section-title">12. Pseudo-Element Selector ( ::before, ::after, ::first-letter )</h2>
+    <p class="before-after">Yeh paragraph ::before aur ::after use karta hai.</p>
+    <p class="first-letter-demo">pehli letter is paragraph ki badi aur colorful hogi — ::first-letter se.</p>
+    <p class="first-line-demo">Yeh paragraph ki pehli line alag style mein hogi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates.</p>
+
+    <!-- 14. :focus SELECTOR -->
+    <h2 class="section-title">14. :focus Selector</h2>
+    <input type="text" class="focus-input" placeholder="Is box mein click karo — focus style dekhna"/>
+
+    <!-- 15. :checked SELECTOR -->
+    <h2 class="section-title">15. :checked Selector</h2>
+    <label class="check-label">
+        <input type="checkbox" class="check-box"/> Checkbox check karo — style badlega
+    </label>
+
+</body>
+</html>
